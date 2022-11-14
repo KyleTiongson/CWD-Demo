@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>  document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.fixed-action-btn');
+      var instances = M.FloatingActionButton.init(elems, {
+        direction: 'left',
+        hoverEnabled:false
+      });
+    });</script>
+ <!-- side navigation -->
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+   var elems = document.querySelectorAll('.sidenav');
+   var instances = M.Sidenav.init(elems, options);
+   var instance = M.Sidenav.getInstance(elem);
+ });
+ </script>
+
+ <!-- icons -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Activity one</title>
+
+    <style>
+        f{
+            text-align: right;
+           margin-right: 15px;
+        }
+        #title{
+            margin-left: 20%;
+            font-size: 45px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+        }
+        a{
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+        b{
+            margin-bottom: 10px;
+            font-family: sans-serif;
+        }
+        table,th,td{
+            text-align: center;
+            margin-top: 25px;
+            margin-left: 15px;
+            border: 2px solid black;
+        }
+        tr.data{
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+        }
+        
+    </style>
+</head>
+<body class="grey">
+    <nav class="green">
+        <f class="large material-icons waves-effect waves-light btn-flat">account_circle</f>
+        <b class="black-text darken-3 waves-effect waves-teal btn-flat">Home </b>
+        <b class="black-text darken-3 waves-effect waves-teal btn-flat">About</b>
+        <b class="black-text darken-3 waves-effect waves-teal btn-flat">help</b>
+        
+      
+    </nav>
+<div class="container">
+    <a id="title">College Registration</a>
+<br>
+    <a class="waves-effect waves-light btn-large"><i class="material-icons left">account_circle</i>Login</a>
+
+    <a class="waves-effect waves-light btn-large"><i class="material-icons left">add_circle</i>Add</a>
+
+    <a class="waves-effect waves-light btn-large"><i class="material-icons left">autorenew</i>Update</a>
+
+    <a class="waves-effect waves-light btn-large"><i class="material-icons left">autorenew</i>Delete</a>
+
+    <table style="width: 100%;">
+        <tr style="font-size: 17px;">
+            <th>First Name</th>
+            <th>Middle Name</th>
+            <th>Last Name</th>
+            <th>Birth date</th>
+            <th>Age</th>
+            <th>Course</th>
+        </tr>
+        <tr class="data">
+            <th>Kyle</th>
+            <th>De ocampo</th>
+            <th>Tiongson</th>
+            <th>02/22/2002</th>
+            <th>20</th>
+            <th>BSCS</th>
+        </tr>
+        <tr class="data">
+            <th>Kyle</th>
+            <th>De ocampo</th>
+            <th>Tiongson</th>
+            <th>02/22/2002</th>
+            <th>20</th>
+            <th>BSCS</th>
+        </tr>
+        <tr class="data">
+            <th>Kyle</th>
+            <th>De ocampo</th>
+            <th>Tiongson</th>
+            <th>02/22/2002</th>
+            <th>20</th>
+            <th>BSCS</th>
+        </tr>
+    </table>
+ 
+</div>
+    
+</body>
+</html>
